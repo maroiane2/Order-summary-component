@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background:hsl(225, 100%, 94%);
+}
+.backgr {
+    overflow: hidden;
+}
+p {
+    font-size:16px;
+}
+.all {
+    width: 350px;
+    height: 500px;
+    background: hsl(225, 100%, 98%);
+    position:absolute;
+    top: 12%;
+    left: 35%;
+    border-radius: 5%;
+    display: grid;
+    grid-template-rows: 170px 130px 100px 100px;
+}
+.img-music {
+    width: 350px;
+    height: 170px;
+    border-radius: 5% 5% 0 0;
+
+}
+.text1 {
+    margin-top: 25px;
+    text-align: center;
+}
+.text1 p {
+    font-size:small;
+    color: hsl(223, 21%, 40%);
+    letter-spacing: 0.6px;
+    line-height: 20px;
+}
+
+
+
+.buy {
+    text-align: center;
+}
+.sell {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 75px;
+    margin:12.5px auto;
+    background: #e0e8ff61;
+    border-radius:10px;
+}
+.sell img {
+    width: 50px;
+    height: 50px;
+}
+.sell p {
+    margin-top: 10px;
+    color: hsl(223, 21%, 40%);
+}
+.Change:active {
+    color: hsl(223, 58%, 61%);
+}
+
+
+div .order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin:10px auto;
+    background: hsl(245, 75%, 52%);
+    border-radius:10px;
+    color: #fff;
+    font-weight: bolder;
+}
+div .order:active {
+    background-color: hsl(224, 72%, 56%);
+}
+.order:hover {
+    cursor: pointer;
+}
+div .cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:small;
+    color: hsl(223, 26%, 45%);
+    margin-top: 15px;
+    font-weight: bold;
+}
+.cancel:hover {
+    cursor: pointer;
+}
+.cancel:active {
+    color: hsl(223, 47%, 23%);
+}
